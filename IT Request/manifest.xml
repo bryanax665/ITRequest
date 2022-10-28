@@ -2,7 +2,7 @@
 <OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0" xmlns:mailappor="http://schemas.microsoft.com/office/mailappversionoverrides/1.0" xsi:type="MailApp">
   <Id>8aba19fa-b0ae-478b-ae06-77d42f7eef1c</Id>
   <Version>1.0.0.0</Version>
-  <ProviderName>AB&R</ProviderName>
+  <ProviderName>"AB&R"</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="IT Request"/>
   <Description DefaultValue="Click to submit an IT Request."/>
