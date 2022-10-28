@@ -14,7 +14,7 @@ Office.onReady(() => {
  * @param event {Office.AddinCommands.Event}
  */
 function action(event) {
-    window.open("https://www.geeksforgeeks.org", "_blank");
+    window.open("https://forms.office.com/r/1SiSX9GXiL", "_blank");
         }
 
 

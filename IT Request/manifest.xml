@@ -6,11 +6,11 @@
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="IT Request"/>
   <Description DefaultValue="Click to submit an IT Request."/>
-  <IconUrl DefaultValue="https://localhost:3000/assets/GBicon64.png"/>
-  <HighResolutionIconUrl DefaultValue="https://localhost:3000/assets/GBicon128.png"/>
+  <IconUrl DefaultValue="https://github.com/bryanax665/ITRequest/blob/main/IT%20Request/assets/GBicon64.png"/>
+  <HighResolutionIconUrl DefaultValue="https://github.com/bryanax665/ITRequest/blob/main/IT%20Request/assets/GBicon128.png"/>
   <SupportUrl DefaultValue="https://www.contoso.com/help"/>
   <AppDomains>
-    <AppDomain>https://www.contoso.com</AppDomain>
+    <AppDomain>https://github.com/bryanax665/ITRequest</AppDomain>
   </AppDomains>
   <Hosts>
     <Host Name="Mailbox"/>
@@ -23,7 +23,7 @@
   <FormSettings>
     <Form xsi:type="ItemRead">
       <DesktopSettings>
-        <SourceLocation DefaultValue="https://localhost:3000/taskpane.html"/>
+        <SourceLocation DefaultValue="https://github.com/bryanax665/ITRequest/blob/main/IT%20Request/taskpane.html"/>
         <RequestedHeight>250</RequestedHeight>
       </DesktopSettings>
     </Form>
@@ -70,12 +70,12 @@
     </Hosts>
     <Resources>
       <bt:Images>
-        <bt:Image id="Icon.16x16" DefaultValue="https://localhost:3000/assets/GBicon16.png"/>
-        <bt:Image id="Icon.32x32" DefaultValue="https://localhost:3000/assets/GBicon32.png"/>
-        <bt:Image id="Icon.80x80" DefaultValue="https://localhost:3000/assets/GBicon80.png"/>
+        <bt:Image id="Icon.16x16" DefaultValue="https://github.com/bryanax665/ITRequest/blob/main/IT%20Request/assets/GBicon16.png"/>
+        <bt:Image id="Icon.32x32" DefaultValue="https://github.com/bryanax665/ITRequest/blob/main/IT%20Request/assets/GBicon32.png"/>
+        <bt:Image id="Icon.80x80" DefaultValue="https://github.com/bryanax665/ITRequest/blob/main/IT%20Request/assets/GBicon80.png"/>
       </bt:Images>
       <bt:Urls>
-        <bt:Url id="Commands.Url" DefaultValue="https://localhost:3000/commands.html"/>
+        <bt:Url id="Commands.Url" DefaultValue="https://github.com/bryanax665/ITRequest/blob/main/IT%20Request/commands.html"/>
       </bt:Urls>
       <bt:ShortStrings>
         <bt:String id="GroupLabel" DefaultValue="IT Request"/>
