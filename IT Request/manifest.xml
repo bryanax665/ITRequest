@@ -10,7 +10,7 @@
   <HighResolutionIconUrl DefaultValue="https://github.com/bryanax665/ITRequest/blob/main/IT%20Request/assets/GBicon128.png"/>
   <SupportUrl DefaultValue="https://www.contoso.com/help"/>
   <AppDomains>
-    <AppDomain>https://www.contoso.com</AppDomain>
+    <AppDomain>https://github.com/</AppDomain>
   </AppDomains>
   <Hosts>
     <Host Name="Mailbox"/>
