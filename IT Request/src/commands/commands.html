@@ -8,7 +8,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
 
     <!-- Office JavaScript API -->
-    <script type="text/javascript" src="https://appsforoffice.microsoft.com/lib/1.1/hosted/office.js"></script>
+    <script type="text/javascript" src="https://appsforoffice.microsoft.com/lib/1.1/hosted/office.js">
+	
+		Office.onReady(() => {
+		  // If needed, Office.js is ready to be called
+		});
+
+		/**
+		 * Shows a notification when the add-in command is executed.
+		 * @param event {Office.AddinCommands.Event}
+		 */
+		function action(event) {
+			window.open("https://forms.office.com/r/1SiSX9GXiL", "_blank");
+				}
+
+
+		function getGlobal() {
+		  return typeof self !== "undefined"
+			? self
+			: typeof window !== "undefined"
+			? window
+			: typeof global !== "undefined"
+			? global
+			: undefined;
+		}
+
+		const g = getGlobal();
+
+		// The add-in command functions need to be available in global scope
+		g.action = action;	
+	
+	</script>
 </head>
 
 <body>
