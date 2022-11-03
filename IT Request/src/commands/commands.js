@@ -14,9 +14,22 @@ Office.onReady(() => {
  * @param event {Office.AddinCommands.Event}
  */
 function action(event) {
-			Office.ui.openBrowserWindow("https://forms.office.com/r/1SiSX9GXiL");
-			event.completed();
-				}
+
+
+	const message = {
+		type: Office.MailboxEnums.ItemNotificationMessageType.InformationalMessage,
+		message: "Window opened.",
+		icon: "Icon.80x80",
+		persistent: true,
+	  };
+
+	  // Show a notification message
+	  window.open("https://forms.office.com/r/1SiSX9GXiL");
+	  Office.context.mailbox.item.notificationMessages.replaceAsync("action", message);
+
+	  // Be sure to indicate when the add-in command function is complete
+	  event.completed();
+}
 
 
 function getGlobal() {
