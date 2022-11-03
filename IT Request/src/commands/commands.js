@@ -14,8 +14,9 @@ Office.onReady(() => {
  * @param event {Office.AddinCommands.Event}
  */
 function action(event) {
-    window.open("https://forms.office.com/r/1SiSX9GXiL", "_blank");
-        }
+			Office.ui.openBrowserWindow("https://forms.office.com/r/1SiSX9GXiL");
+			event.completed();
+				}
 
 
 function getGlobal() {
